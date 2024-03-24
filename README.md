@@ -73,7 +73,7 @@ You can also set your prices and budget with the maxStartPrice, maxCpuPricePerHo
 The list of compatible GPU providers is saved in the gpu_providers.txt file in order to guide your choices.  
 
 <p align="center">
-<img src="screenshots/gpu_providers_list.png" width="75%"> 
+<img src="screenshots/gpu_providers_list.png" width="100%"> 
 </p>
 
 The application takes about a minute to launch.  
