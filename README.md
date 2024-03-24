@@ -90,6 +90,6 @@ In debug mode, you can modify the translation parameters directly (language, sts
 </p>
 
 <p align="center">
-<img src="screenshots/debug_web_pages_config.png" width="100%"> 
+<img src="screenshots/debug_web_pages_config.png" width="75%"> 
 </p>
 
