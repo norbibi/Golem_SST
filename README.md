@@ -94,3 +94,27 @@ In debug mode, you can modify the translation parameters directly (language, sts
 <img src="screenshots/debug_web_pages_config.png" width="75%"> 
 </p>
 
+**Build GVMI image**  
+
+- Download seamless_streaming_unity.pt from https://huggingface.co/facebook/seamless-streaming/blob/main/seamless_streaming_unity.pt and place it in Docker_Golem_SST/libs/huggingface/fairseq2/assets/67ee4586019ee2f8128d8c2c/  
+
+- Download seamless_streaming_monotonic_decoder.pt from https://huggingface.co/facebook/seamless-streaming/blob/main/seamless_streaming_monotonic_decoder.pt and place it in Docker_Golem_SST/libs/huggingface/fairseq2/assets/ab809bf1032fc01a6bb9b3e3/  
+
+- Download vocoder_v2.pt from https://huggingface.co/facebook/seamless-streaming/blob/main/vocoder_v2.pt and place it in Docker_Golem_SST/libs/huggingface/fairseq2/assets/72156bff62197705b8e88f19/  
+
+- Download m2m_expressive_unity.pt, pretssel_melhifigan_wm.pt, pretssel_melhifigan_wm-16khz.pt from https://huggingface.co/facebook/seamless-expressive and place them in Docker_Golem_SST/models/  
+
+```
+cd Docker_Golem_SST
+docker build -t golem_sst .
+gvmkit-build --push golem_sst:latest
+```
+
+Compute hash with krunch3r76's tool (https://github.com/krunch3r76/gc__gvmi_hash):  
+
+```
+gc__gvmi_hash.py docker-golem_sst-latest-xxxxxxxxxx.gvmi
+```
+
+Push generated file in your own http server file (because image is too large for Golem registry, about 18GB).  
+Replace shasum and url in manifest.json.  
