@@ -1,7 +1,7 @@
 
 # Golem SST
 
-This application allows you to converse in our native language with someone speaking another language.  
+This application allows you to converse in your native language with someone speaking another language.  
 It runs on Golem Network with GPU providers and works with the usual chat tools (Dicord, Teams, Duo, etc.).  
 To do this, it presents the Golem Microphone and Golem_Speaker audio inputs/outputs to configure in the chat application.  
 
