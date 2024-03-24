@@ -6,9 +6,9 @@ It runs on Golem Network with GPU providers and works with the usual chat tools 
 To do this, it presents the Golem Microphone and Golem_Speaker audio inputs/outputs to configure in the chat application.  
 
 <p>
-  <img src="screenshots/Meet_audio_config.png" width="48%"">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="screenshots/Discord_audio_config.png" width="48%">
+  <img src="screenshots/Meet_audio_config.png" width="49%"">
+&nbsp; 
+  <img src="screenshots/Discord_audio_config.png" width="49%">
 </p>
 
 This application is based on Meta's Seamless Communication AI model (https://huggingface.co/spaces/facebook/seamless-streaming).  
@@ -90,6 +90,6 @@ In debug mode, you can modify the translation parameters directly (language, sts
 </p>
 
 <p align="center">
-<img src="screenshots/debug_web_pages_config.png" width="25%"> 
+<img src="screenshots/debug_web_pages_config.png" width="100%"> 
 </p>
 
