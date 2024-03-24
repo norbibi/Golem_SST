@@ -29,7 +29,9 @@ This tool is only for LINUX requestor.
 
 **How to use:**  
 
-``` 
+```
+git clone https://github.com/norbibi/Golem_SST
+cd Golem_SST
 node sst.mjs
 ``` 
 
