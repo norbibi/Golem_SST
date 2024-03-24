@@ -67,7 +67,7 @@ This application requires a GPU with at least 12 GB of VRAM and 10 GB of RAM.
 Use the --inputLanguage <inputLanguage> and --outputLanguage <outputLanguage> options to configure the languages.  
 inputLanguage correspond to what you hear in your headphones and outputLanguage to what your interlocutor will hear.  
 
-If you want to use a specific (compatible) GPU provider, use the --providerId <providerid> option.  
+If you want to use a specific (compatible) GPU provider, use the '--providerId <providerid>' option.  
 If you want to use a GPU provider among all those available (the cheapest), use the '--useOnlyWhitelisted false' option.  
 
 You can also set your prices and budget with the maxStartPrice, maxCpuPricePerHour, maxEnvPricePerHour and budget options.  
