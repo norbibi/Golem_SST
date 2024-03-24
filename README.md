@@ -7,7 +7,7 @@ To do this, it presents the Golem Microphone and Golem_Speaker audio inputs/outp
 
 <p>
   <img src="screenshots/Meet_audio_config.png" width="48%"">
-&nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;
   <img src="screenshots/Discord_audio_config.png" width="48%">
 </p>
 
