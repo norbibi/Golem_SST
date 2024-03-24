@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "createdAt": "2024-02-03T19:00:00.000+01:00",
+  "expiresAt": "2025-02-03T19:00:00.000+01:00",
+  "metadata": {
+    "name": "SST",
+    "description": "Seamless commmunication",
+    "version": "0.1.0"
+  },
+  "payload": [
+    {
+      "platform": {
+        "os": "linux",
+        "arch": "x86_64"
+      },
+      "hash": "sha3:07799f01432c2a3089918fc4cb15483b9aa9bde08d088bc6feb8cd9c",
+      "urls": [
+        "http://82.66.219.1/docker-golem_sst-latest-87155f33b5.gvmi"
+      ]
+    }
+  ],
+  "compManifest": {
+    "version": "0.1.0",
+    "script": {
+      "commands": [
+        "run .*"
+      ],
+      "match": "regex"
+    }
+  }
+}
