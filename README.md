@@ -58,14 +58,13 @@ Supported languages:
      Slovak (slk), Spanish (spa), Swedish (swe), Swahili (swh), Telugu (tel), Tagalog (tgl), Thai (tha), Turkish (tur),  
      Ukrainian (ukr), Urdu (urd), Uzbek (uzn), Vietnamese (vie)  
 
+Use the --inputLanguage <inputLanguage> and --outputLanguage <outputLanguage> options to configure the languages.  
+inputLanguage correspond to what you hear in your headphones and outputLanguage to what your interlocutor will hear. 
+
 By default, the public subnet will be used with the erc20 network driver, the polygon payment driver and a GPU provider whitelist.  
 The image has already been uploaded to these providers (whitelisted).  
 Their prices are 1 GLM/h for the RTX3090 and 2 GLM/h for the RTX4060.  
-
-This application requires a GPU with at least 12 GB of VRAM and 10 GB of RAM.  
-
-Use the --inputLanguage <inputLanguage> and --outputLanguage <outputLanguage> options to configure the languages.  
-inputLanguage correspond to what you hear in your headphones and outputLanguage to what your interlocutor will hear.  
+This application requires a GPU provider with at least 12 GB of VRAM and 10 GB of RAM.  
 
 If you want to use a specific (compatible) GPU provider, use the '--providerId providerid' option.  
 If you want to use a GPU provider among all those available (the cheapest), use the '--useOnlyWhitelisted false' option.  
