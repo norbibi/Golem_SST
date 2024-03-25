@@ -126,12 +126,11 @@ async function main(subnet, driver, network, budget, maxStartPrice, maxCpuPriceP
   const executor = await TaskExecutor.create({
     proposalFilter: myFilter,
     capabilities: ["vpn", "!exp:gpu", "manifest-support"],
-	  engine: "vm-nvidia",
+    engine: "vm-nvidia",
     maxParallelTasks: 1,
     subnetTag: subnet,
     payment: { driver, network },
     budget: budget,
-    //logLevel: "debug",
     networkIp: "192.168.0.0/24",
     taskTimeout: 60*60*1000,
     manifest: manifest.toString('base64'),
@@ -280,5 +279,3 @@ configure_audio();
 
 main( options.subnet, options.paymentDriver, options.paymentNetwork, options.budget, options.maxStartPrice, options.maxCpuPricePerHour, options.maxEnvPricePerHour, options.inputLanguage,
       options.outputLanguage, options.providerId, options.useOnlyWhitelisted, options.debug);
-
-// node sst.mjs --subnet public --useOnlyWhitelisted true
