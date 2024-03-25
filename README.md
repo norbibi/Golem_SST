@@ -63,7 +63,7 @@ inputLanguage correspond to what you hear in your headphones and outputLanguage 
 
 By default, the public subnet will be used with the erc20 network driver, the polygon payment driver and a GPU provider whitelist.  
 The image has already been uploaded to these providers (whitelisted).  
-Their prices are 1 GLM/h for the RTX3090 and 2 GLM/h for the RTX4060.  
+Their prices are 1 GLM/h for the RTX3090 and 2 GLM/h for the RTX4090.  
 This application requires a GPU provider with at least 12 GB of VRAM and 10 GB of RAM.  
 
 If you want to use a specific (compatible) GPU provider, use the '--providerId providerid' option.  
